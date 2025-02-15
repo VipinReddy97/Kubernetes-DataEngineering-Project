@@ -37,13 +37,13 @@ kubectl apply -f k8s/
 ```
 This will set up the Kubernetes Dashboard with the necessary roles and permissions.
 
-###  **2️⃣ Accessing the Kubernetes Dashboard
+###  **2️⃣ Accessing the Kubernetes Dashboard**
 To access the Dashboard, you may need to start a proxy server:
 ```sh
 kubectl proxy
 ```
 
-###  **3️⃣ Deploy Apache Airflow
+###  **3️⃣ Deploy Apache Airflow**
 You can deploy Apache Airflow using Helm or by applying custom YAML files.
 For helm:
 ```sh
@@ -51,7 +51,7 @@ helm repo add apache-airflow https://airflow.apache.org
 helm install airflow apache-airflow/airflow -f k8s/values.yaml
 ```
 
-###  **4️⃣ Adding DAGs to Airflow
+###  **4️⃣ Adding DAGs to Airflow**
 Copy your DAG files (fetch_and_preview.py, hello.py) into the DAGs folder of your Airflow deployment.
 
 Example Method:
