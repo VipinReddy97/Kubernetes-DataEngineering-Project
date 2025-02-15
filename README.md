@@ -57,7 +57,9 @@ Example Method:
 Using Persistent Volume in Kubernetes
 Using Git-sync for automatic updates
 
-📌 Usage
+---
+
+📌 **Usage**
 Kubernetes Dashboard → Use the Dashboard to monitor and manage the Kubernetes cluster.
 Apache Airflow → Access the Airflow Web UI to manage, schedule, and monitor workflows.
 
