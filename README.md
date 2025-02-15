@@ -53,9 +53,11 @@ helm install airflow apache-airflow/airflow -f k8s/values.yaml
 
 ###  **4️⃣ Adding DAGs to Airflow**
 Copy your DAG files (fetch_and_preview.py, hello.py) into the DAGs folder of your Airflow deployment.
-
 Example Method:
-
 Using Persistent Volume in Kubernetes
 Using Git-sync for automatic updates
+
+📌 Usage
+Kubernetes Dashboard → Use the Dashboard to monitor and manage the Kubernetes cluster.
+Apache Airflow → Access the Airflow Web UI to manage, schedule, and monitor workflows.
 
